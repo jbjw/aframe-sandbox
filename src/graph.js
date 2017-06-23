@@ -1,6 +1,6 @@
 import AFRAME from 'aframe'
-import 'three';
-let THREE;
+// import 'three';
+// let THREE;
 
 AFRAME.registerComponent('graph', {
 	schema: {

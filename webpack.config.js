@@ -10,11 +10,17 @@ module.exports = {
 		app: './src/main.jsx',
 	},
 	devtool: 'source-map',
+	externals: {
+		// require("jquery") is external and available
+		//  on the global var jQuery
+		"aframe": "AFRAME"
+	}
 	devServer: {
 		inline: true,
 		// hot: true,
 		contentBase: 'dist/',
-		// host: '0.0.0.0',
+		host: '0.0.0.0',
+		disableHostCheck: true,
 		port: 80,
 		// historyApiFallback: true,
 
