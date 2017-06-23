@@ -14,7 +14,7 @@ module.exports = {
 		// require("jquery") is external and available
 		//  on the global var jQuery
 		"aframe": "AFRAME"
-	}
+	},
 	devServer: {
 		inline: true,
 		// hot: true,
