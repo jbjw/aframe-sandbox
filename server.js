@@ -52,10 +52,11 @@ app.post('/', function (req, res) {
 
 const httpServer = http.createServer( app );
 httpServer.listen(httpPort, function () {
-	console.log(`http listening on port ${httpPort}`);
+	console.dir(httpServer.address().port)
+	// console.log(`https listening on port ${httpsPort}`);
 });
 
-// const server = https.createServer(options, app);
+// const httpsServer = https.createServer(options, app);
 // httpsServer.listen(httpsPort, function () {
 // 	console.log(`https listening on port ${httpsPort}`);
 // });
