@@ -47,5 +47,4 @@ window.onload = function () {
 	// setTimeout( () => {
 	// 	graph.setAttribute('graph', 'values', [3, 1, 5])
 	// }, 7000)
-
 }
